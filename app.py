@@ -5,6 +5,6 @@ app = Flask(__name__)
 def hello():
     return "Hello,i am naveen"
 
-@app.route("a/")
+@app.route("/a")
 def about():
     return "About Page"
